@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copa+ 2026 | FAQ & Contato</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&family=Unbounded:wght@600;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <a href="index.html" class="logo">COPA<span>+</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="lineup.html">Line-up</a></li>
+          <li><a href="ingressos.html">Ingressos</a></li>
+          <li><a href="informacoes.html">Informações</a></li>
+          <li><a href="faq.html" class="active">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="section-title">Dúvidas Frequentes</h1>
+    <p class="section-subtitle">Respostas para as principais perguntas sobre o evento</p>
+
+    <div class="faq-list">
+      <article class="faq-item">
+        <h4>Qual é a classificação etária do festival?</h4>
+        <p>A classificação do festival é rigorosamente 18 anos devido ao local e estrutura do evento. É obrigatória a apresentação de documento com foto na entrada.</p>
+      </article>
+
+      <article class="faq-item">
+        <h4>Como funciona o sistema de pagamento nos bares?</h4>
+        <p>O evento utiliza o sistema 100% Cashless por meio de pulseiras ativas. As recargas podem ser efetuadas via Pix, cartão de débito ou crédito.</p>
+      </article>
+
+      <article class="faq-item">
+        <h4>Qual o horário de abertura dos portões?</h4>
+        <p>Os elevadores de acesso ao Terraço Itália começam a operar às 18:00 em todos os quatro dias de evento.</p>
+      </article>
+
+      <article class="faq-item">
+        <h4>Posso transferir a titularidade do meu ingresso?</h4>
+        <p>Sim, a transferência pode ser feita digitalmente pelo aplicativo da bilheteria até 24 horas antes do início do dia do evento.</p>
+      </article>
+
+      <article class="faq-item">
+        <h4>O local tem acessibilidade para PWD?</h4>
+        <p>Sim, o Edifício Itália dispõe de elevadores adaptados, rampas e áreas reservadas com excelente visibilidade nos palcos.</p>
+      </article>
+
+      <article class="faq-item">
+        <h4>Haverá guarda-volumes no evento?</h4>
+        <p>Sim, um serviço de lockers estará disponível no hall de entrada do rooftop mediante taxa única de locação.</p>
+      </article>
+    </div>
+
+    <h2 class="section-title" style="margin-top: 4rem;">Atendimento ao Cliente</h2>
+    <p class="section-subtitle">Envie uma mensagem caso precise de suporte adicional</p>
+
+    <form class="contact-form" action="#" method="post" onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso!');">
+      <div class="form-group">
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">E-mail de Contato</label>
+        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+      </div>
+
+      <div class="form-group">
+        <label for="assunto">Assunto</label>
+        <input type="text" id="assunto" name="assunto" placeholder="Ex: Dúvida sobre ingresso VIP" required>
+      </div>
+
+      <div class="form-group">
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn-primary" style="width: 100%;">Enviar Mensagem</button>
+    </form>
+  </main>
+
+  <footer>
+    <p><strong>Festival Copa+ 2026</strong> • Terraço Itália, São Paulo - SP</p>
+    <p>Desenvolvido por Gabriel Gomes</p>
+  </footer>
+
+</body>
+</html>
